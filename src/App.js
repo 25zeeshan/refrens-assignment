@@ -2,7 +2,7 @@ import "./App.css";
 
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 
-import Home from "./components/Home";
+import Character from "./components/Character";
 import Detail from "./components/Detail";
 import Navigation from "./components/Navigation";
 
@@ -10,9 +10,9 @@ function App() {
   return (
     <>
       <Navigation />
-      <BrowserRouter>
+      <BrowserRouter basename="/">
         <Routes>
-          <Route exact path="/" element={<Home />} />
+          <Route path="/" element={<Character />} />
           <Route path="/character/:id" element={<Detail />} />
         </Routes>
       </BrowserRouter>
