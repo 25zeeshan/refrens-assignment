@@ -1,0 +1,47 @@
+.navigation {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  transition: box-shadow 0.3s ease-in-out;
+  background-color: #7854da;
+  z-index: 100;
+}
+
+.shadow {
+    box-shadow: rgba(0, 0, 0, 0.14) 0px 4px 5px 0px, rgba(0, 0, 0, 0.12) 0px 1px 10px 0px, rgba(0, 0, 0, 0.2) 0px 2px 4px -1px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+  height: 60px;
+}
+
+.logoText {
+  color: white;
+  margin-left: 10px;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+.navButtons a {
+  margin-left: 10px;
+  color: white;
+  border: none;
+  background: none;
+  font-size: 1rem;
+  text-decoration: none;
+}
+
+
+
+/* Media query for mobile */
+@media (max-width: 768px) {
+}

@@ -1,0 +1,20 @@
+.location{
+    margin: 10px 0;
+}
+
+.locationDetails{
+    font-size: 0.8rem;
+    margin: 5px 0;
+}
+
+.name{
+    margin: 5px 0;
+}
+
+
+
+@media screen and (max-width: 500px){
+    .location{
+        margin: 0;
+    }
+}

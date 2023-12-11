@@ -1,0 +1,45 @@
+.content {
+  margin-top: 20px;
+}
+
+.characters {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 10%;
+  justify-content: space-evenly;
+}
+
+.heading{
+  text-align: center;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+  margin: 40px 0;
+  font-size: 1.2rem;
+}
+
+.pagination li {
+  display: inline-block;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.pagination li a {
+  padding: 8px;
+  border: 1px solid #486ed8;
+  color: #000;
+  text-decoration: none;
+}
+
+.pagination li a:hover {
+  background-color: #3071d1;
+}
+
+.pagination li.active a {
+  background: #3071d1;
+  color: white
+}

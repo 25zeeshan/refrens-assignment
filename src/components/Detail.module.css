@@ -1,0 +1,105 @@
+.detail{
+    margin-top: 100px;
+}
+
+.profilePic{
+    width: 50%;
+}
+
+.profilePic img{
+    object-fit: cover;
+    box-shadow: 0 0 5px 3px #7854da;
+    width: 100%;
+}
+
+.characterContainer{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.characterInfo{
+    background-color: rgb(235, 229, 229);
+    padding: 20px;
+    display: flex;
+    width: 30vw;
+    align-items: center;
+}
+
+.otherDetails{
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+    width: 50%;
+    justify-content: space-evenly;
+    height: 100%;
+}
+
+.name{
+    font-size: 1.5rem;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+
+.name span{
+    font-size: 0.8rem;
+    font-weight: normal;
+    padding:5px;
+    color: white;
+    border-radius: 3px;
+    margin-left: 10px;
+}
+
+.typeDetail{
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+
+.allEpisodes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.locationDetail{
+    font-size: 1rem;
+    margin-top: 10px;
+}
+
+.heading{
+    font-weight: 700;
+}
+
+
+@media screen and (max-width: 500px) {
+    .characterInfo{
+        width: 80vw;
+    }
+
+    .name{
+        font-size: 1rem;
+    }
+
+    .name span{
+        font-size: 0.6rem;
+    }
+
+    .typeDetail{
+        font-size: 0.8rem;
+        margin-bottom: 0px;
+    }
+
+    
+.locationDetail{
+    font-size: 0.8rem;
+    margin-top: 5px;
+}
+
+.heading{
+    font-weight: 600;
+}
+
+}
